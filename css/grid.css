@@ -1,0 +1,47 @@
+.boxgrid{  
+    width: 306px;  
+    height: 306px;  
+    margin:10px;  
+    float:left;  
+    background:#FFF;
+    padding:5px;  
+    border: solid 1px #000;  
+    overflow: hidden;  
+    position: relative;  
+}
+
+.boxgrid img{  
+    position: absolute;  
+    bottom: 5px;  
+/*    left: 0;  */
+    border: 0;  
+}  
+
+.boxcaption{  
+    float: left;  
+    position: absolute;  
+    background: #000;  
+    height: 75px;  
+    width: 100%;  
+    opacity: .8;  
+    /* For IE 5-7 */  
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);  
+    /* For IE 8 */  
+    -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";  
+    }  
+
+
+.captionfull .boxcaption {  
+    bottom: -75px;  
+    left: 0;  
+}
+
+.caption .boxcaption {  
+    bottom: -75px;  
+    left: 0;  
+}
+
+h3{
+    color:#FFF;
+    padding:10px;
+}
